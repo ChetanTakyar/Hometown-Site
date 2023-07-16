@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  color: azure;
+  margin: 0 auto;
+  background-image: url("images/sydney-harbour-bridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 370px;
+}
+
+#main-header {
+  background-color: #13293d;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+.attractions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #8db38b;
+}
+#attractions-title {
+  background-color: #8db38b;
+  margin: 0;
+}
+.attraction-images {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#desc {
+  background-color: #26537d;
+  width: 400px;
+  border-radius: 12px;
+}
+
+#kiwi-img {
+  border-radius: 20px;
+  width: 250px;
+  margin: 0px 10px 0px 0px;
+}
+.guide-card {
+  background-color: #ebcfb2;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #16324f;
+  margin: 10px auto;
+}
+
+.guide-card:hover {
+  transform: scale(1.2);
+}
