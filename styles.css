@@ -10,10 +10,9 @@ body {
   justify-content: start;
   color: azure;
   margin: 0 auto;
-  background-image: url("images/sydney-harbour-bridge.jpg");
+  background: url("images/highResSydney.jpg") no-repeat center;
   background-size: cover;
-  width: 100vw;
-  height: 50vh;
+  width: 1100px;
 }
 
 #main-header {
@@ -25,11 +24,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #006494;
+  background-color: #32746d;
+  color: azure;
 }
+
 #attractions-title {
-  background-color: #006494;
+  background-color: #32746d;
+  color: azure;
   margin: 0;
+  padding: 20px;
 }
 .attraction-images {
   width: 100px;
@@ -48,16 +51,16 @@ body {
   margin: 0px 10px 0px 0px;
 }
 .guide-card {
-  background-color: #ebcfb2;
+  background-color: #26537d;
   display: flex;
   justify-content: center;
   width: 400px;
   border-radius: 20px;
   padding: 10px 20px;
-  color: #16324f;
-  margin: 10px auto;
+  color: azure;
+  margin: 15px auto;
 }
 
 .guide-card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
