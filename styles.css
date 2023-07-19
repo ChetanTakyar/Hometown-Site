@@ -28,6 +28,11 @@ body {
   color: azure;
 }
 
+#attractions-width {
+  margin: 0 auto;
+  width: 1100px;
+}
+
 #attractions-title {
   background-color: #32746d;
   color: azure;
